@@ -1,0 +1,32 @@
+📝 Summarize
+Converts a lengthy document into a short and clear summary.
+Identifies the main ideas and important information.
+Helps users understand documents quickly.
+Reduces the time required to read large documents.
+Uses the AI model to generate the summary from the uploaded document.
+⭐ Key Features
+Document Upload – Users can upload a document for analysis.
+Text Chunking – Large documents are divided into smaller sections.
+Text Embedding – Sentence Transformers converts text into numerical embeddings.
+Vector Storage – ChromaDB stores document embeddings for retrieval.
+Semantic Search – Finds document sections that are most relevant to the user's question.
+RAG – Retrieved information is provided to the language model as context for generating the answer. The original RAG approach combines retrieval with generation to improve knowledge-intensive question answering.
+AI Question Answering – Users can ask questions about their uploaded document.
+Chat History – Previous questions and answers can be displayed in the sidebar.
+Personality Selection – Users can select different response styles such as Professor or Friendly.
+📚 Source
+
+For your Source tab, show the technologies/references used in the project:
+
+Retrieval-Augmented Generation (RAG)
+Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks, 2020.
+RAG Research Paper – arXiv
+Sentence Transformers
+Used for generating text embeddings and semantic-search applications.
+Sentence Transformers Documentation
+ChromaDB
+Used as the vector database/retrieval component in your application.
+Ollama
+Used to run the local LLM (llama3.2:3b) for generating chatbot responses.
+Streamlit
+Used to create the chatbot's web interface.
